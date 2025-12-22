@@ -8,12 +8,6 @@ We will support the latest stable release of `gitunify`. Please ensure you are u
 
 ## Reporting a Vulnerability
 
-<!--
-Update `package_name` to the name of the package.
-
-Remove the comment when this is done.
--->
-
 If you discover a security vulnerability in `gitunify`, we encourage you to report it responsibly.
 
 **Please do not open a public issue.** Instead, contact us directly via email:
