@@ -17,6 +17,7 @@ EDITMSG
 envlist
 envpython
 getrecursionlimit
+gitunify
 inlinevar
 isort
 metaclass
