@@ -1,12 +1,12 @@
 ---
 ci:
   autofix_commit_msg: |
-    [pre-commit.ci] auto fixes from pre-commit.com hooks
+    fix: auto fixes from pre-commit hooks
 
     for more information, see https://pre-commit.ci
   autofix_prs: true
   autoupdate_branch: ""
-  autoupdate_commit_msg: "[pre-commit.ci] pre-commit autoupdate"
+  autoupdate_commit_msg: "fix: pre-commit autoupdate"
   autoupdate_schedule: weekly
   skip: []
   submodules: false
@@ -137,6 +137,13 @@ repos:
     rev: v3.1.0
     hooks:
       - id: prettier
+        stages: [pre-commit]
+
+  - repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.47.0
+    hooks:
+      - id: markdownlint
+        args: [--config, .markdownlint.yaml]
         stages: [pre-commit]
 
   - repo: https://github.com/Yelp/detect-secrets

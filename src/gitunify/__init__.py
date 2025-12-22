@@ -1,5 +1,5 @@
 """
-An introduction of the python package.
+gitunify - A tool for unifying Git repositories.
 """
 
 from __future__ import annotations

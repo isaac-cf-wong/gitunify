@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "A Python package that provides a unified interface to manage different Git platforms."
+license: "MIT"
+type: software
+authors:
+  - given-names: Isaac C. F.
+    family-names: Wong
+    affiliation: KU Leuven
+    orcid: "https://orcid.org/0000-0003-2166-0027"
+keywords:
+  - python
+  - git
