@@ -28,6 +28,7 @@ Gitea
 gitunify
 glightbox
 htmlcov
+iids
 inlinevar
 isort
 mathjax
