@@ -33,4 +33,4 @@ For questions, issues, or contributions, please:
 
 ## Changelog
 
-See [CHANGELOG.md](CHANGELOG.md) for version history.
+See [Release Notes](https://github.com/isaac-cf-wong/gitunify/releases) for version history.
