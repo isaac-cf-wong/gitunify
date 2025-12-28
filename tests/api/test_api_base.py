@@ -93,16 +93,16 @@ class TestAPI:
         # Check that error was logged
         assert "Request failed: Connection failed" in caplog.text
 
-    @patch("gitunify.api.base.requests.request")
     @patch("gitunify.api.base.logger")
-    def test_request_logs_debug_info(self, mock_logger, mock_request, mock_response, mock_api):
+    @patch("gitunify.api.base.requests.request")
+    def test_request_logs_debug_info(self, mock_request, mock_logger, mock_response, mock_api):
         """Test that requests are logged at debug level."""
         mock_request.return_value = mock_response
 
         mock_api._request("GET", "https://api.example.com/test", headers={})
 
-        mock_logger.debug.assert_any_call("GET https://api.example.com/test")
-        mock_logger.debug.assert_any_call("Response: 200")  # Assuming status_code=200
+        mock_logger.debug.assert_any_call("%s %s", "GET", "https://api.example.com/test")
+        mock_logger.debug.assert_any_call("Response: %s", 200)
 
     def test_abstract_method_not_implemented(self):
         """Test that API cannot be instantiated directly due to abstract method."""
