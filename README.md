@@ -2,7 +2,7 @@
 
 [![Python CI](https://github.com/isaac-cf-wong/gitunify/actions/workflows/CI.yml/badge.svg)](https://github.com/isaac-cf-wong/gitunify/actions/workflows/CI.yml)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/isaac-cf-wong/gitunify/main.svg)](https://results.pre-commit.ci/latest/github/isaac-cf-wong/gitunify/main)
-[![Documentation Status](https://github.com/isaac-cf-wong/gitunify/actions/workflows/documentation.yml/badge.svg)](https://github.com/isaac-cf-wong/gitunify/actions/workflows/documentation.yml)
+[![Documentation Status](https://github.com/isaac-cf-wong/gitunify/actions/workflows/documentation.yml/badge.svg)](https://isaac-cf-wong.github.io/gitunify)
 [![codecov](https://codecov.io/gh/isaac-cf-wong/gitunify/graph/badge.svg?token=COF8341N60)](https://codecov.io/gh/isaac-cf-wong/gitunify)
 [![PyPI Version](https://img.shields.io/pypi/v/gitunify)](https://pypi.org/project/gitunify/)
 [![Python Versions](https://img.shields.io/pypi/pyversions/gitunify)](https://pypi.org/project/gitunify/)
