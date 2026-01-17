@@ -6,6 +6,7 @@ asdict
 autoupdate
 buildapi
 Cabe
+caplog
 capsys
 cff
 ciso
@@ -28,6 +29,7 @@ Gitea
 gitunify
 glightbox
 htmlcov
+iids
 inlinevar
 isort
 mathjax
